@@ -28,8 +28,7 @@ public class Employee {
 		return salary;
 	}
 	public void setSalary(int salary) {
+		System.out.println("Salary is --"+salary);
 		this.salary = salary;
 	}
-	
-	
 }
